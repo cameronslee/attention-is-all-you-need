@@ -1,0 +1,17 @@
+# Notes
+
+## Masking
+### Purpose
+- prevent the model from attending to certain positions in the input sequence
+    - this is akin to ignoring irrelevant information
+- handle variable len sequences in a fixed size computational graph
+    - allow different lengths.
+        - we add padding to shorter sentances to make all of the 
+        sentances that we are evaluating the same length 
+- prevent cheating (peeking at future words)
+- focused attention to specific parts
+
+
+# Resources
+- https://peterbloem.nl/blog/transformers
+- 
